@@ -28,7 +28,6 @@ namespace CoffeeNew.Data
                 .Property(e => e.Date)
                 .HasDefaultValueSql("now()");
 
-
             modelBuilder
                 .Entity<News>()
                 .Property(e => e.CreateDate)

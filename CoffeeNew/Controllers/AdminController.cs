@@ -8,13 +8,13 @@ using SQLitePCL;
 namespace CoffeeNew.Controllers
 {
     [Authorize(Roles = "Administrator")]
-    public class Admin : Controller
+    public class AdminController : Controller
     {
 
         public NewsRepository _newsRepository;
 
 
-        public Admin(NewsRepository newsRepository)
+        public AdminController(NewsRepository newsRepository)
         {
             _newsRepository = newsRepository;
         }

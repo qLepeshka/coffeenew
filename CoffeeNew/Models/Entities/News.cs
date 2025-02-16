@@ -15,9 +15,9 @@ namespace CoffeeNew.Models.Entities
 
         public DateTime Date { get; set; }
 
-        public string AuthorId { get; set; }
+        public int AuthorId { get; set; }
 
-        public User Author { get; set; }
+        //public User Author { get; set; }
         public DateTime CreateDate { get; set; }
 
         public bool IsActive { get; set; }
